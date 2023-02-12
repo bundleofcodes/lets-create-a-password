@@ -13,7 +13,7 @@ function writePassword() {
 var uppercaseLetters ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowercaseLetters ="abcdefghijklmnopqrstuvwxyz";
 var numbers ="1234567890";
-var specialCharacters ="!@#$%&*?=+-_";
+var specialCharacters ="!#$%&'()*+,-./:;<=>?@[]_`{|}~";
 var passwordOption ="";
 var password ="";
 
@@ -45,13 +45,13 @@ function generatePassword() {
       passwordOption +=lowercaseLetters;
     }
 
-   let numbers =confirm("Would you like numbers?");
-   if (numbers) {
+  let numbersConfirm =confirm("Would you like numbers?");
+   if (numbersConfirm) {
     passwordOption +=numbers;
    }
    
-   let specialCharacters =confirm("Would you like special characters?");
-   if (numbers) {
+  let specialCharactersConfirm =confirm("Would you like special characters?");
+   if (specialCharactersConfirm) {
     passwordOption +=specialCharacters;
    }
 
