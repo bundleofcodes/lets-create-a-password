@@ -6,6 +6,10 @@
 
 ## Usage 
 
+Screenshot of webpage:
+
+- ![alt text](./Assets/Password%20Generator%20Screenshot.png)
+
 - Step One: Select the password length
 - Step Two: Confirm if you would like to use uppercase letters.
 - Step Three: Confirm is you would like to use lowercase letters.
